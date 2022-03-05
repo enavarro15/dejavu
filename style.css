@@ -1,0 +1,81 @@
+header{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: right;
+    
+    
+    
+    }
+    
+    
+    article.cabecera{
+       margin: 3em 0em 0em 0em;
+        text-align: center;
+        
+    }
+    span.cabecera{
+        padding: 15px;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(196, 191, 191);
+    
+    }
+    section{
+        border-top: black 2px solid;
+        
+        margin: 1em 20em 1em 20em;
+        
+    }
+    span.titulo{
+        text-align: left;
+        font-weight: bold;
+        font-size: 150%;
+     
+        
+    }
+    body{
+        background-color: gray;
+        
+    }
+    span.texto{
+        text-align: justify;
+    }
+    article.blanco{
+        
+        border-bottom: white 3px solid;
+    }
+    span.negrita{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    span.disco{
+        border-bottom: red 1px dashed;
+        font-style: italic;
+        font-size: 110%;
+    }
+    blockquote {
+        quotes: "«" "»";
+      }
+    span.disco::before{
+        content: open-quote; 
+    }
+    span.disco::after{
+        content: close-quote; 
+    }
+    
+    span.blanc{
+        color: red;
+        background-color: white;
+    
+    }
+    
+    span.azul{
+        color: blue;
+        font-weight: bold;
+    }
+    footer{
+        background-color: white;
+        text-align: center;
+        border: black 1px solid;
+    }
